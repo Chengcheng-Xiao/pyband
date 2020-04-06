@@ -593,4 +593,5 @@ if __name__ == '__main__':
 
     if not opts.quiet:
         from subprocess import call
-        call(['feh', '-xdF', opts.dosimage])
+	call(['/Users/XiaoChengcheng/.iterm2/imgcat',  opts.dosimage]
+#        call(['feh', '-xdF', opts.dosimage])

@@ -581,4 +581,5 @@ if __name__ == '__main__':
 
     if not opts.quiet:
         from subprocess import call
-        call(['feh', '-xdF', opts.bandimage])
+	call(['/Users/XiaoChengcheng/.iterm2/imgcat',  opts.bandimage])
+#        call(['feh', '-xdF', opts.bandimage])
